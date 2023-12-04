@@ -9,6 +9,8 @@ struct ContentView: View {
                 NavigationLink(destination: GithubProfileView(userName: "Eisenhuth")) { Label("Github Profile & API", systemImage: "01.circle.fill") }
                 NavigationLink(destination: ImagesView()){ Label("Images", systemImage: "02.circle.fill") }
                 NavigationLink(destination: RemoteModels()){ Label("Remote Models", systemImage: "03.circle.fill") }
+                NavigationLink(destination: UniversalisTest()){ Label("Universalis", systemImage: "04.circle.fill") }
+
             }
             .navigationTitle("Sandbox")
         }

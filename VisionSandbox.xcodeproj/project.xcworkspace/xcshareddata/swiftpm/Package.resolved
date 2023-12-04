@@ -10,6 +10,15 @@
       }
     },
     {
+      "identity" : "universalis-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Eisenhuth/universalis-swift/",
+      "state" : {
+        "branch" : "master",
+        "revision" : "ef25a5d75401642b2e5a89897a019042db512060"
+      }
+    },
+    {
       "identity" : "yasu",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/eisenhuth/yasu.git",

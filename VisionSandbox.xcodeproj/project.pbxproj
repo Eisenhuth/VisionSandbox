@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B8E6B4B2B1D886E008CBD1C /* universalis-swift in Frameworks */ = {isa = PBXBuildFile; productRef = 0B8E6B4A2B1D886E008CBD1C /* universalis-swift */; };
 		0BCD06C42B11981C0097CEAE /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 0BCD06C32B11981C0097CEAE /* RealityKitContent */; };
 		0BCD06C62B11981C0097CEAE /* VisionSandboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCD06C52B11981C0097CEAE /* VisionSandboxApp.swift */; };
 		0BCD06C82B11981C0097CEAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCD06C72B11981C0097CEAE /* ContentView.swift */; };
@@ -19,6 +20,8 @@
 		0BCD06DF2B11A47E0097CEAE /* SampleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCD06DE2B11A47E0097CEAE /* SampleScene.swift */; };
 		0BCD06E62B11A8740097CEAE /* ImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCD06E52B11A8740097CEAE /* ImagesView.swift */; };
 		0BCD06E92B1251E30097CEAE /* RemoteModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCD06E82B1251E30097CEAE /* RemoteModels.swift */; };
+		0BCD5B172B1D7EA700EB79CC /* universalis-swift in Frameworks */ = {isa = PBXBuildFile; productRef = 0BCD5B162B1D7EA700EB79CC /* universalis-swift */; };
+		0BCD5B192B1D7EC200EB79CC /* UniversalisTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCD5B182B1D7EC200EB79CC /* UniversalisTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,7 @@
 		0BCD06DE2B11A47E0097CEAE /* SampleScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleScene.swift; sourceTree = "<group>"; };
 		0BCD06E52B11A8740097CEAE /* ImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesView.swift; sourceTree = "<group>"; };
 		0BCD06E82B1251E30097CEAE /* RemoteModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteModels.swift; sourceTree = "<group>"; };
+		0BCD5B182B1D7EC200EB79CC /* UniversalisTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalisTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,9 +45,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BCD5B172B1D7EA700EB79CC /* universalis-swift in Frameworks */,
 				0BCD06DD2B119E390097CEAE /* Kingfisher in Frameworks */,
 				0BCD06D62B1198800097CEAE /* YASU in Frameworks */,
 				0BCD06C42B11981C0097CEAE /* RealityKitContent in Frameworks */,
+				0B8E6B4B2B1D886E008CBD1C /* universalis-swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +126,7 @@
 				0BCD06E02B11A6720097CEAE /* 01_Github */,
 				0BCD06E72B11A8B90097CEAE /* 02_Images */,
 				0BCD06EA2B1251EF0097CEAE /* 03_RemoteModels */,
+				0BCD5B1A2B1D7FB200EB79CC /* 04_Universalis */,
 			);
 			path = Experiments;
 			sourceTree = "<group>";
@@ -138,6 +145,14 @@
 				0BCD06E82B1251E30097CEAE /* RemoteModels.swift */,
 			);
 			path = 03_RemoteModels;
+			sourceTree = "<group>";
+		};
+		0BCD5B1A2B1D7FB200EB79CC /* 04_Universalis */ = {
+			isa = PBXGroup;
+			children = (
+				0BCD5B182B1D7EC200EB79CC /* UniversalisTest.swift */,
+			);
+			path = 04_Universalis;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +175,8 @@
 				0BCD06C32B11981C0097CEAE /* RealityKitContent */,
 				0BCD06D52B1198800097CEAE /* YASU */,
 				0BCD06DC2B119E390097CEAE /* Kingfisher */,
+				0BCD5B162B1D7EA700EB79CC /* universalis-swift */,
+				0B8E6B4A2B1D886E008CBD1C /* universalis-swift */,
 			);
 			productName = VisionSandbox;
 			productReference = 0BCD06BE2B11981C0097CEAE /* VisionSandbox.app */;
@@ -192,6 +209,7 @@
 			packageReferences = (
 				0BCD06D42B1198800097CEAE /* XCRemoteSwiftPackageReference "yasu" */,
 				0BCD06DB2B119E390097CEAE /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				0B8E6B492B1D886E008CBD1C /* XCRemoteSwiftPackageReference "universalis-swift" */,
 			);
 			productRefGroup = 0BCD06BF2B11981C0097CEAE /* Products */;
 			projectDirPath = "";
@@ -224,6 +242,7 @@
 				0BCD06E62B11A8740097CEAE /* ImagesView.swift in Sources */,
 				0BCD06E92B1251E30097CEAE /* RemoteModels.swift in Sources */,
 				0BCD06DA2B119A330097CEAE /* GithubUser.swift in Sources */,
+				0BCD5B192B1D7EC200EB79CC /* UniversalisTest.swift in Sources */,
 				0BCD06D82B1198ED0097CEAE /* GithubProfileView.swift in Sources */,
 				0BCD06C62B11981C0097CEAE /* VisionSandboxApp.swift in Sources */,
 			);
@@ -427,6 +446,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		0B8E6B492B1D886E008CBD1C /* XCRemoteSwiftPackageReference "universalis-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Eisenhuth/universalis-swift/";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		0BCD06D42B1198800097CEAE /* XCRemoteSwiftPackageReference "yasu" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/eisenhuth/yasu.git";
@@ -446,6 +473,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0B8E6B4A2B1D886E008CBD1C /* universalis-swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B8E6B492B1D886E008CBD1C /* XCRemoteSwiftPackageReference "universalis-swift" */;
+			productName = "universalis-swift";
+		};
 		0BCD06C32B11981C0097CEAE /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
@@ -459,6 +491,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 0BCD06DB2B119E390097CEAE /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		0BCD5B162B1D7EA700EB79CC /* universalis-swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "universalis-swift";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
